@@ -4,6 +4,7 @@
   "private": true,
   "description": "Bible Architecture Stories — Episode 02: Why Did God Close Noah's Ark? (Standalone Windows Local Studio & Three.js 0.160.0 Project)",
   "scripts": {
+    "dev": "node server.mjs",
     "typecheck": "tsc --noEmit",
     "check:checkpoint": "node src/tools/resume_checkpoint_template.mjs",
     "check:env": "python3 src/check_env.py",
