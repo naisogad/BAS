@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python virtual environments & bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Secrets & local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Frame caches, regeneration jobs, logs & temp files
+tmp/
+temp/
+tmp_preview/
+.regen_jobs/
+*.tmp
+*.tmp.*
+*.log
+progress.json
+*.tsbuildinfo
+
+# Generated video, audio, screenshot & Local Studio export binaries
+output/*
+!output/.gitkeep
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.zip
+!assets/**
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

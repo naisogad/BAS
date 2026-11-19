@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "seriesTitle": "Bible Architecture Stories",
+  "projectName": "BAS_EP02",
+  "episodeId": "ep02",
+  "episodeSlug": "why_did_god_close_noahs_ark",
+  "episodeTitle": "Why Did God Close Noah's Ark?",
+  "scripturalReference": "Genesis 6–9; 1 Peter 3:20; 2 Peter 2:5; Matthew 24:37–42",
+  "phaseStatus": "PHASE_1_CONCEPT_NARRATION_APPROVED_AWAITING_ASSETS",
+  "targetVideoFormat": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16",
+    "fps": 30,
+    "audioFormat": "wav_pcm_s24le_48khz_stereo"
+  },
+  "deliveryWorkflow": {
+    "rendererContract": "deterministic_window_renderAt_and_window_DURATION",
+    "threeJsVersion": "0.160.0",
+    "localStudioEngine": "Windows Local Studio (HTML + WAV playback & MP4 export)",
+    "finalEditAssembly": "CapCut (narration, captions, BGM, final mix)",
+    "requireOfflineSelfContainedAssets": true
+  },
+  "priorApprovals": {
+    "v002Concept": {
+      "status": "approved",
+      "note": "Previously documented user approval for V002 concept: Why Did God Close Noah's Ark?"
+    },
+    "narrationDraftV3": {
+      "status": "approved",
+      "assetPresentInRepo": false,
+      "note": "Previously documented user approval for Narration Draft v3; original script file not present in source repo (do not reconstruct)."
+    },
+    "grandfatherJoeAudioMaster": {
+      "status": "approved",
+      "voiceName": "Grandfather Joe — Gentle, Warm & Wise",
+      "assetPresentInRepo": false,
+      "note": "Previously documented user approval for exact Grandfather Joe audio master; original MP3 file not present in source repo (do not reconstruct or regenerate)."
+    }
+  },
+  "creativeApprovalStates": {
+    "masterRefs": "unapproved",
+    "shotMap": "unapproved",
+    "renders": {}
+  },
+  "technicalApprovalStates": {
+    "renders": {}
+  },
+  "narration": {
+    "scriptStatus": "APPROVED_DRAFT_V3_AWAITING_ORIGINAL_FILE",
+    "approvedDraftVersion": "Draft v3",
+    "approvedAudioMaster": "Grandfather Joe (exact master approved; MP3 awaiting import)",
+    "cueFile": "assets/narration/narration_cues.json",
+    "audioFile": null,
+    "totalDurationSec": null
+  },
+  "segments": [],
+  "checkpoints": {
+    "activeTaskFile": "docs/ACTIVE_TASK.md",
+    "productionPlanFile": "docs/PRODUCTION_PLAN.md",
+    "issuesRegisterFile": "docs/ISSUES_REGISTER.md"
+  }
+}

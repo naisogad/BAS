@@ -1,0 +1,23 @@
+{
+  "name": "bas-ep02",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bible Architecture Stories — Episode 02: Why Did God Close Noah's Ark? (Standalone Windows Local Studio & Three.js 0.160.0 Project)",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check:checkpoint": "node src/tools/resume_checkpoint_template.mjs",
+    "check:env": "python3 src/check_env.py",
+    "build": "npm run typecheck && npm run check:checkpoint",
+    "build:smoke-html": "node src/builders/build_render_html_template.mjs --episode ep02 --render 01 --title \"Template Smoke Validation\" --duration 2.0",
+    "package:smoke": "node src/packaging/package_local_studio_template.mjs"
+  },
+  "dependencies": {
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "esbuild": "0.28.2",
+    "playwright": "^1.65.1",
+    "typescript": "5.9.3"
+  }
+}

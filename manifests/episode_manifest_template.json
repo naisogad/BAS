@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "episodeId": "epXX",
+  "renderId": "01",
+  "title": "TBD — Render 01",
+  "deliveryFormat": "windows_local_studio_bundle",
+  "masterTimelineSec": {
+    "start": 0,
+    "end": 0
+  },
+  "localTimelineSec": {
+    "start": 0,
+    "end": 0
+  },
+  "durationSec": 0,
+  "isFinalSegment": false,
+  "resolution": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "fps": 30,
+  "frameCount": 0,
+  "entryHtml": "render01.html",
+  "eventsFile": "render01_events.json",
+  "deterministicContract": {
+    "durationGlobal": "window.DURATION",
+    "renderFunction": "window.renderAt(t)",
+    "requiresExternalNetwork": false,
+    "requiresAiStudioPaths": false
+  },
+  "hashes": {
+    "visualHash": null,
+    "visualShortHash": null,
+    "timingHash": null,
+    "timingShortHash": null,
+    "audioHash": null,
+    "audioShortHash": null,
+    "previewHtmlHash": null,
+    "cueTimingHash": null
+  },
+  "creativeApproval": {
+    "status": "unapproved",
+    "approvedVisualShortHash": null,
+    "approvedAt": null
+  },
+  "deliveryTracking": {
+    "runtimePackagedOnDisk": false,
+    "checksumVerified": false,
+    "userObtainedConfirmed": false
+  },
+  "audio": {
+    "file": "render01_sfx.wav",
+    "eventsFile": "render01_events.json",
+    "startOffsetSec": 0,
+    "codec": "pcm_s24le",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitsPerSample": 24,
+    "sampleCountPerChannel": 0,
+    "durationSec": 0,
+    "sfxOnly": true,
+    "narrationIncluded": false,
+    "musicIncluded": false,
+    "cueCount": 0,
+    "sha256": null
+  },
+  "assets": [],
+  "workflow": {
+    "localPlaybackAndVideoExport": "Windows Local Studio (HTML + WAV)",
+    "hydrogenMp4ExportRequired": false,
+    "finalEpisodeAssembly": "CapCut (narration, captions, music, BGM, mixing)"
+  }
+}
